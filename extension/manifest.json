@@ -1,0 +1,29 @@
+{
+    "name": "real-price",
+    "description": "Real Price",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": ["scripting"],
+    "host_permissions": ["https://*/*", "http://*/*"],
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "run_at": "document_idle",
+        "matches": ["<all_urls>"],
+        "js":["index-64bb53ac.js"]
+      }
+    ]
+}
