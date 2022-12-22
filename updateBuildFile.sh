@@ -1,0 +1,1 @@
+mv ./dist/assets/index*.js ./extension/index.js

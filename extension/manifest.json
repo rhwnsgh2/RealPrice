@@ -23,7 +23,7 @@
       {
         "run_at": "document_idle",
         "matches": ["<all_urls>"],
-        "js":["index-64bb53ac.js"]
+        "js":["index.js"]
       }
     ]
 }

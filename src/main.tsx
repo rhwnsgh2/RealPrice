@@ -6,7 +6,7 @@ import './index.css'
 const extensionRoot = document.createElement('div')
 extensionRoot.id = "realPriceExtension"
 document.body.appendChild(extensionRoot)
-console.log("TESTSTETSETES")
+
 ReactDOM.createRoot(document.getElementById('realPriceExtension') as HTMLElement).render(
   <React.StrictMode>
     <App />
