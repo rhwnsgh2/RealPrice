@@ -8,6 +8,9 @@ function App() {
 export default App;
 
 const Root = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   right: 0;
